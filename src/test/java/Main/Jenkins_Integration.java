@@ -2,6 +2,7 @@ package Main;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,9 +11,8 @@ public class Jenkins_Integration {
 	
 	static WebDriver driver;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	@Test
+	public void initalization(){
 		WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
