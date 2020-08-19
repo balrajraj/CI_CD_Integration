@@ -13,11 +13,11 @@ public class Jenkins_Integration {
 
 	@Test
 	public void initalization(){
-		WebDriverManager.chromedriver().setup();
+		/*WebDriverManager.chromedriver().setup();
 		
 		driver = new ChromeDriver();
 		
-		driver.get("https://www.google.co.in/");
+		driver.get("https://www.google.co.in/");*/
 		
 		System.out.println("Hi Balraj");
 
